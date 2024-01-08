@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+  </head>
+
+  <body>
+    <h1>User Registration Form</h1>
+    <form id="Registration-form">
+      <label
+        >First Name:<input
+          type="text"
+          placeholder="First name"
+          name="First-Name"
+          required
+      /></label>
+      <br />
+      <br />
+      <label
+        >Last Name:<input
+          type="text"
+          placeholder="Last name"
+          name="Last-name"
+          required
+      /></label>
+      <br />
+      <br />
+      <label
+        >Email:<input
+          type="email"
+          placeholder="email-address"
+          name="email"
+          required /></label
+      ><br />
+      <br />
+      <label
+        >Password:<input
+          type="password"
+          placeholder="password"
+          name="password"
+          required
+      /></label>
+
+      <br />
+      <br />
+      <label
+        >Bio:<textarea name="bio" rows="4" cols="50" required></textarea>
+      </label>
+      <br />
+      <br />
+      <fieldset>
+        <legend>Gender:</legend>
+        <label><input type="radio" name="radio" value="Male" /> Male</label>
+        <br />
+        <label><input type="radio" name="radio" value="Female" />Female</label>
+        <br />
+        <label><input type="radio" name="radio" value="Other" />Other</label>
+      </fieldset>
+      <br />
+      <br />
+      <fieldset>
+        <legend>Interests:</legend>
+        <label><input type="checkbox" name="radio" value="Music" />Music</label>
+        <br />
+        <label
+          ><input type="checkbox" name="radio" value="Sports" />Sports</label
+        >
+        <br />
+        <label
+          ><input type="checkbox" name="radio" value="Reading" />Reading</label
+        >
+      </fieldset>
+      <br />
+      <br />
+      <label
+        >Country:
+        <select name="Country" required>
+          <option value="united-states">United States</option>
+          <option value="karachi">Karachi</option>
+          <option value="london">London</option>
+          <option value="paris">Paris</option>
+          <option value="spain">Spain</option>
+        </select>
+      </label>
+      <br />
+      <br />
+      <label>
+        Preferred Color:
+        <select name="Color" multiple size="4" required>
+          <optgroup>
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="green">Green</option>
+            <option value="white">White</option>
+          </optgroup>
+        </select>
+      </label>
+      <br />
+      <br />
+      <label
+        >Profile Picture:
+        <input type="file" accept="image/*" required />
+      </label>
+      <br />
+      <br />
+      <label
+        >Birthdate:
+        <input name="date" type="date" required />
+      </label>
+      <br />
+      <br />
+      <label
+        >Email:
+        <input name="email" type="email" required />
+      </label>
+      <br />
+      <br />
+      <label
+        >Website:
+        <input name="website" type="url" required />
+      </label>
+      <br />
+      <br />
+      <label
+        >Search:
+        <input name="search" type="search" />
+      </label>
+      <br />
+      <br />
+      <input name="submit" type="button" value="Submit" />
+    </form>
+
+    <p>© Mhammad Ahmed ID = "WMA-212928"</p>
+  </body>
+</html>
