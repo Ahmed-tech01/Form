@@ -28,19 +28,13 @@
       <br />
       <br />
       <label
-        >Email:<input
-          type="email"
-          placeholder="email-address"
-          name="email"
-          required /></label
-      ><br />
-      <br />
-      <label
         >Password:<input
           type="password"
           placeholder="password"
           name="password"
           required
+          minlength="8"
+          maxlength="200"
       /></label>
 
       <br />
@@ -113,19 +107,29 @@
       <br />
       <label
         >Email:
-        <input name="email" type="email" required />
+        <input
+          name="email"
+          type="email"
+          placeholder="Enter your email...."
+          required
+        />
       </label>
       <br />
       <br />
       <label
         >Website:
-        <input name="website" type="url" required />
+        <input
+          name="website"
+          type="url"
+          placeholder="Enter your website...."
+          required
+        />
       </label>
       <br />
       <br />
       <label
         >Search:
-        <input name="search" type="search" />
+        <input name="search" placeholder="search..." type="search" />
       </label>
       <br />
       <br />
